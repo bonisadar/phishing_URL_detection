@@ -1,11 +1,10 @@
-
 import pickle
 import os
 import re
 import numpy as np
 import logging
 import joblib
-
+from app.utils.preprocess import preprocess_url_single
 
 
 logger = logging.getLogger(__name__)
