@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-
+import re
 
 # ======================= INPUT SCHEMA =======================
 class URLInput(BaseModel):
